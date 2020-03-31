@@ -12,7 +12,7 @@ import {
 } from '../../components';
 
 import css from './AboutPage.css';
-import image from './about-us-1056.jpg';
+import image from './background-hero-billboard.jpg';
 
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
@@ -25,7 +25,7 @@ const AboutPage = () => {
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Saunatime',
+        description: 'About OOHK',
         name: 'About page',
       }}
     >
@@ -35,46 +35,59 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Experience the unique Finnish home sauna.</h1>
+          <h1 className={css.pageTitle}>Experience the unique online billboard booking.</h1>
           <img className={css.coverImage} src={image} alt="My first ice cream." />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Did you know that Finland has 3.2 million saunas - almost one sauna per person!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
 
             <div className={css.contentMain}>
-              <h2>
-                Most of the Finnish saunas are located at the homes of individuals - indeed, most
-                people in Finland live in an apartment with sauna in it. In addition, lots of people
-                have lakeside summer cottages, which also typically come with a separate sauna
-                building near the waterfront.
-              </h2>
-
+              <h2>1 Lorem ipsum dolor sit amet</h2>
               <p>
-                To truly experience a Finnish sauna, you need to look beyond the public saunas, and
-                instead visit a real home or cottage sauna. Saunatime makes this possible for
-                everyone. All our saunas are owned by individuals willing to let tourists and other
-                curious visitors to enter their sacred spaces.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
 
-              <h3 className={css.subtitle}>Are you a sauna owner?</h3>
-
+              <h2>2 Sed ut perspiciatis unde</h2>
               <p>
-                Saunatime offers you a good way to earn some extra cash! If you're not using your
-                sauna every evening, why not rent it to other people while it's free. And even if
-                you are using your sauna every evening (we understand, it's so good), why not invite
-                other people to join you when the sauna is already warm! A shared sauna experience
-                is often a more fulfilling one.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+              </p>
+
+              <h2>3 At vero eos et accusamus</h2>
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id
+                est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+                maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut
+                et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
+                sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+                doloribus asperiores repellat
               </p>
 
               <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Saunatime
+                Create your own marketplace like OOHK
               </h3>
               <p>
-                Saunatime is brought to you by the good folks at{' '}
+                OOHK is brought to you by the good folks at{' '}
                 <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Would you like
-                to create your own marketplace platform a bit like Saunatime? Or perhaps a mobile
+                to create your own marketplace platform a bit like OOHK? Or perhaps a mobile
                 app? With Sharetribe it's really easy. If you have a marketplace idea in mind, do
                 get in touch!
               </p>

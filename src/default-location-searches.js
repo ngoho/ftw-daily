@@ -9,38 +9,24 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-helsinki',
+    id: 'default-danang',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Da Nang, Vietnam',
+      bounds: new LatLngBounds(new LatLng(16.3114599902207, 108.44838199662), new LatLng(15.9753550055496, 107.856238894078)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-hanoi',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Hanoi, Vietnam',
+      bounds: new LatLngBounds(new LatLng(21.3730889988542, 106.013612998305), new LatLng(20.5639581400226, 105.282080035504)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-ho-chi-minh-city',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
-    },
-  },
-  {
-    id: 'default-oulu',
-    predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
-    },
-  },
-  {
-    id: 'default-ruka',
-    predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'Ho Chi Minh City, Vietnam',
+      bounds: new LatLngBounds(new LatLng(11.1360659787714, 107.013279296618), new LatLng(10.2714012914168, 106.363667508434)),
     },
   },
 ];
